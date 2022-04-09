@@ -13,21 +13,38 @@ h1 {
   width: 100%;
   height: 100%;
 }
-.indicator-btn {
-  width: 15px !important;
-  height: 15px !important;
-  border: none;
-  background-color: #ae3ccc;
-}
 .change-arrow {
   position: absolute;
   top: 45%;
   cursor: pointer;
   font-size: 1.8rem;
+  color: #f0e9e9;
 }
 #previous-btn {
   left: 10%;
 }
 #next-btn {
   right: 10%;
+}
+.indicator-btn {
+  width: 15px !important;
+  height: 15px !important;
+  border: none;
+  bottom: 5%;
+  background: #f8f0ee;
+}
+#indicator-btn1 {
+  left: 52%;
+}
+#indicator-btn2 {
+  left: 50%;
+}
+#indicator-btn3 {
+  left: 48%;
+}
+#indicator-btn4 {
+  left: 46%;
+}
+#indicator-btn5 {
+  left: 44%;
 }
