@@ -10,6 +10,7 @@ h1 {
   margin: auto;
 }
 #sample-works img {
+  display: none;
   width: 100%;
   height: 100%;
 }
