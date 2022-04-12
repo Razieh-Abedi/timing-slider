@@ -33,19 +33,20 @@ h1 {
   border: none;
   bottom: 5%;
   background: #f8f0ee;
+  opacity: 0.5;
 }
-#indicator-btn1 {
+#indicator-btn5 {
   left: 52%;
 }
-#indicator-btn2 {
+#indicator-btn4 {
   left: 50%;
 }
 #indicator-btn3 {
   left: 48%;
 }
-#indicator-btn4 {
+#indicator-btn2 {
   left: 46%;
 }
-#indicator-btn5 {
+#indicator-btn1 {
   left: 44%;
 }

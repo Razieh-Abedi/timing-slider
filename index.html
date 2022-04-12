@@ -25,28 +25,36 @@
           src="assets/images/flooring1.jpg"
           alt="sample flooring work1"
           class="slider-img"
-          aria-controls="indicator-btn1"
           id="img1"
+          aria-labelledby="indicator-btn1"
         />
         <img
           src="assets/images/flooring2.jpg"
           alt="sample flooring work2"
           class="slider-img"
+          id="img2"
+          aria-labelledby="indicator-btn2"
         />
         <img
           src="assets/images/flooring3.jpg"
           alt="sample flooring work3"
           class="slider-img"
+          id="img3"
+          aria-labelledby="indicator-btn3"
         />
         <img
           src="assets/images/flooring4.jpg"
           alt="sample flooring work4"
           class="slider-img"
+          id="img4"
+          aria-labelledby="indicator-btn4"
         />
         <img
           src="assets/images/flooring5.jpg"
           alt="sample flooring work5"
           class="slider-img"
+          id="img5"
+          aria-labelledby="indicator-btn5"
         />
       </div>
       <i
@@ -60,26 +68,29 @@
       <button
         class="indicator-btn rounded-circle position-absolute"
         id="indicator-btn1"
-        aria-labelledby="img1"
+        data-bs-target="#img1"
       ></button>
       <button
         class="indicator-btn rounded-circle position-absolute"
         id="indicator-btn2"
+        data-bs-target="#img2"
       ></button>
       <button
         class="indicator-btn rounded-circle position-absolute"
         id="indicator-btn3"
+        data-bs-target="#img3"
       ></button>
       <button
         class="indicator-btn rounded-circle position-absolute"
         id="indicator-btn4"
+        data-bs-target="#img4"
       ></button>
       <button
         class="indicator-btn rounded-circle position-absolute"
         id="indicator-btn5"
+        data-bs-target="#img5"
       ></button>
     </div>
-    <div id="change-slide-indicator"></div>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
